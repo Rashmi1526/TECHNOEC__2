@@ -1,40 +1,3 @@
-// import {
-//     List,
-//     ListItem,
-//     ListIcon,
-//     OrderedList,
-//     UnorderedList,
-//   } from '@chakra-ui/react';
-// import {CheckCircleIcon} from '@chakra-ui/icons';
-// import React from 'react';
-
-// const Sidebar = () => {
-//   return (
-//     <div>
-//         <List spacing={3}>
-//             <ListItem>
-//                 <ListIcon as={CheckCircleIcon} color='green.500' />
-//                 Lorem ipsum dolor sit amet, consectetur adipisicing elit
-//             </ListItem>
-//             <ListItem>
-//                 <ListIcon as={CheckCircleIcon} color='green.500' />
-//                 Assumenda, quia temporibus eveniet a libero incidunt suscipit
-//             </ListItem>
-//             <ListItem>
-//                 <ListIcon as={CheckCircleIcon} color='green.500' />
-//                 Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
-//             </ListItem>
-//             <ListItem>
-//                 <ListIcon as={CheckCircleIcon} color='green.500' />
-//                 Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
-//             </ListItem>
-//             </List>
-//     </div>
-//   )
-// }
-
-// export default Sidebar
-
 
 import React, { useState } from 'react'
 import { useColorMode} from '@chakra-ui/react'
@@ -94,12 +57,6 @@ export default function Sidebar() {
                     }}
                 />
                 <NavItem navSize={navSize} icon={FiHome} title="Dashboard" active/>
-                {/* <NavItem navSize={navSize} icon={FiBox} title="All Orders" active />
-                <NavItem navSize={navSize} icon={FiCheckSquare} title="Active orders" /> */}
-                {/* <NavItem navSize={navSize} icon={IoPawOutline} title="Animals" />
-                <NavItem navSize={navSize} icon={FiDollarSign} title="Stocks" />
-                <NavItem navSize={navSize} icon={FiBriefcase} title="Reports" />
-                <NavItem navSize={navSize} icon={FiSettings} title="Settings" /> */}
             </Flex>
 
             <Flex
