@@ -88,7 +88,6 @@ const App = () => {
                 <GridItem><MyOrders order="415133" name="Real Madrid" worth="$150.00" status="Returned"/></GridItem>
                 <GridItem><MyOrders order="416846" name="Lionel Messi" worth="$2500.00" status="Shipped"/></GridItem>
                 <GridItem><MyOrders order="213456" name="Ronaldo" worth="$120.00" status="In-Progress"/></GridItem>
-                <GridItem><MyOrders order="981521" name="Rolnaldinho" worth="$10.00" status="Shipped"/></GridItem>
             </Grid>
             </Box>
         </Flex>
