@@ -106,7 +106,7 @@ const MyTabs = () => {
                         <Td>Kaecilius</Td>
                         <Td>Time Square, NewYork, USA</Td>
                         <Td isNumeric>104444</Td>
-                        <Td isNumeric>In-Progrss</Td>
+                        <Td isNumeric>In-Progress</Td>
                         </Tr>
                         <Tr>
                         <Td>BloodSplash</Td>
